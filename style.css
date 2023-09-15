@@ -1,0 +1,23 @@
+body{
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    font-size: 22px;
+}
+
+.abacha-page{
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    font-size: 22px;
+}
+
+.center{
+    width: 600px;
+    margin: auto;
+}
+
+#intro{
+    
+    padding-bottom: 10px;
+}
+
+.mom{
+    width: 700px;
+}
