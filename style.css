@@ -2,8 +2,30 @@ body{
     font-family: 'Trebuchet MS', Verdana, sans-serif;
     font-size: 22px;
     margin: auto;
-    width: 800px;
+    width: 1000px;
     background-color:#FFFFBA;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.foods ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-top: 52px;
+}
+
+.foods ul a {
+    text-decoration: none;
+    color: black;
 }
 
 h1{
@@ -11,6 +33,7 @@ h1{
     border-style: dotted;
     font-size: 40px;
     text-align: center;
+    margin: 0px;
 }
 
 .first-image{
@@ -18,7 +41,18 @@ h1{
     margin: auto;
 }
 
-.second-image{
-    width: 600px;
-    margin: auto;
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex a {
+    text-decoration: none;
+}
+
+.flex ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
 }
