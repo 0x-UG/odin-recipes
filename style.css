@@ -41,11 +41,6 @@ h1{
     margin: auto;
 }
 
-.flex {
-    display: flex;
-    flex-direction: column;
-}
-
 .flex a {
     text-decoration: none;
 }
